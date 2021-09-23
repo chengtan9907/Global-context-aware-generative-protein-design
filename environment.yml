@@ -1,0 +1,15 @@
+name: gca_protein_design
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pip
+  - python=3.8.10=h49503c6_1_cpython
+  - pytorch=1.8.0=py3.8_cuda11.1_cudnn8.0.5_0
+  - scikit-learn=0.24.2=py38ha9443f7_0
+  - scipy=1.6.2=py38had2a1c9_1
+  - pip:
+    - tqdm
+prefix: /opt/anaconda3/envs/gca_protein_design

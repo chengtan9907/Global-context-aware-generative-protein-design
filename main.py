@@ -94,9 +94,6 @@ class Exp:
         model_param = os.path.join(self.experiment_dir, 'model_param.json')
         with open(model_param, 'w') as file_obj:
             json.dump(self.args.__dict__, file_obj)
-        # Easy to use: load config
-        # config = json.load(open(svpath+'model_param.json','r'))
-        # exp = Exp(argparse.Namespace(**config))
 
     def train(self):
         best_path, best_val = None, np.inf

@@ -17,10 +17,6 @@ class StructureDataset():
             lines = f.readlines()
         self.data = []
 
-        # TEST MODE #
-        lines = lines[:500]
-        # TEST MODE #
-
         for line in tqdm.tqdm(lines):
             entry = json.loads(line)
             seq = entry['seq']

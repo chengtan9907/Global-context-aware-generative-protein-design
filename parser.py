@@ -20,7 +20,7 @@ def create_parser():
     parser.add_argument('--feature-type', type=str, default='full')
     parser.add_argument('--num-layers', type=int, default=3)
     parser.add_argument('--hidden', type=int, default=128)
-    parser.add_argument('--debug', type=int, default=0)
+    parser.add_argument('--debug', type=int, default=1)
     parser.add_argument('--lr', type=float, default=1e-3)
     parser.add_argument('--seed', type=int, default=1)
     parser.add_argument('--batch-tokens', type=int, default=2500)
