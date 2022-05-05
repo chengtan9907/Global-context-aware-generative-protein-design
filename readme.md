@@ -54,6 +54,19 @@ python main.py --model-type gca --epochs 10
 
 More optional arguments are available in `parser.py`.
 
+# Citation
+
+If you are interested in our repository and our paper, please cite the following paper:
+
+```
+@article{tan2022generative,
+  title={Generative De Novo Protein Design with Global Context},
+  author={Tan, Cheng and Gao, Zhangyang and Xia, Jun and Li, Stan Z},
+  journal={arXiv preprint arXiv:2204.10673},
+  year={2022}
+}
+```
+
 ## Contact
 
 If you have any questions, feel free to contact us through email (tancheng@westlake.edu.cn). Enjoy!
