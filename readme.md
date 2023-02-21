@@ -61,7 +61,7 @@ If you are interested in our repository and our paper, please cite the following
 ```
 @article{tan2022generative,
   title={Generative De Novo Protein Design with Global Context},
-  author={Tan, Cheng and Gao, Zhangyang and Xia, Jun and Li, Stan Z},
+  author={Tan, Cheng and Gao, Zhangyang and Xia, Jun and Hu, Bozhen and Li, Stan Z},
   journal={arXiv preprint arXiv:2204.10673},
   year={2022}
 }
